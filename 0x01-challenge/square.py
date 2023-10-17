@@ -3,6 +3,8 @@
 Module containe one class to print info about square
 """
 
+import sys
+
 
 class square():
     """
@@ -13,6 +15,7 @@ class square():
     height = 0
 
     def __init__(self, *args, **kwargs):
+        """ SQUARE INITALIZATION """
         for key, value in kwargs.items():
             setattr(self, key, value)
 
