@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 """
 Module containe one class to print info about square
 """
