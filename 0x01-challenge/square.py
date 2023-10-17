@@ -15,7 +15,7 @@ class square():
         return self.width * self.width
 
     def PermiterOfMySquare(self):
-        return (self.width * 2) + (self.height * 2)
+        return (self.width * self.height * 2)
 
     def __str__(self):
         return "{}/{}".format(self.width, self.height)
