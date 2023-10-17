@@ -1,17 +1,9 @@
 #!/usr/bin/python3
-
-"""
-Module containe one class to print info about square
-"""
-
-import sys
+""" Module containe one class represents square """
 
 
 class square():
-    """
-    class to print info about the square
-    """
-
+    """ class to print info about the square """
     width = 0
     height = 0
 
@@ -34,8 +26,7 @@ class square():
 
 
 if __name__ == "__main__":
-    """ MAIN FUNCTION CALL CHECK """
-
+    """ initiate the square """
     s = square(width=12, height=9)
     print(s)
     print(s.area_of_my_square())
